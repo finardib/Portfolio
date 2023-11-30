@@ -24,4 +24,4 @@ Documentação da evolução do meu processo de aprendizagem em programação.
 - Implementação de recursos interativos e visualmente atraentes.
 
 ##
-<div align="center">Feito com 💙 por <a href="https://github.com/finardib">Finardi</a>.</div>
+<div align="center">Desenvolvido por <a href="https://github.com/finardib">Finardi</a>.</div>

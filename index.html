@@ -6,9 +6,10 @@
   <title>Bruna Finardi | Portfolio</title>
   <meta name="description" content="Portfólio da desenvolvedora Back-End Bruna Finardi para compartilhar projetos e habilidades desenvolvidas.">
 
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/android-chrome-192x192-removebg-preview.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
 </head>
 <body>
   <header class="header">
@@ -38,7 +39,7 @@
     </nav>
     <div class="header__brand">
       <a href="#home">
-        <img class="brand__logo" src="assets/images/LogoBF.jpg" alt="Logo LogoBF">
+        <img class="brand__logo" src="assets/images/android-chrome-192x192-removebg-preview.png" alt="Logo LogoBF">
       </a>
     </div>
     <div class="header__toggle">
@@ -76,8 +77,9 @@
 
   <main id="home">
     <div class="main__content1">
-      <h1><b></b>Desenvolvimento Back-End</h1>
-      <p>Bruna Finardi, Guarulhos-SP. Desenvolvedora Back-End</p> 
+      <h1>Bruna <b>Finardi</b></h1>
+      <h3><b>Desenvolvedora Web</b> | Back-End</h3>
+      <br> 
       <ul class="menu menu--social">
         <li>
           <a class="menu__link" href="https://github.com/finardib" target="_blank">
@@ -90,6 +92,7 @@
           </a>
         </li>        
       </ul>
+      <br>
       <a href="#projetos">
         <button class="btn btn--primary">
           <span>Ver Projetos</span>
@@ -106,16 +109,13 @@
     <h2>Expertise</h2>
     <ul class="technologies__list">
       <li class="technologies__item">
-        <img class="technologies__logo" src="assets/images/technologies/dot-net.png" alt="Logo DOTNET">
+        <img class="technologies__logo" src="assets/images/technologies/csharp.png" alt="Logo csharp">
       </li>
       <li class="technologies__item">
-        <img class="technologies__logo" src="assets/images/technologies/javascript.png" alt="Logo JavaScript">
+        <img class="technologies__logo" src="assets/images/technologies/dotnet.png" alt="Logo dotnet">
       </li>
       <li class="technologies__item">
-        <img class="technologies__logo" src="assets/images/technologies/html.png" alt="Logo HTML">
-      </li>
-      <li class="technologies__item">
-        <img class="technologies__logo" src="assets/images/technologies/css-alt.png" alt="Logo CSS">
+        <img class="technologies__logo" src="assets/images/technologies/javascript.png" alt="Logo javascript">
       </li>
       <li class="technologies__item">
         <img class="technologies__logo" src="assets/images/technologies/figma.png" alt="LogO figma">
@@ -126,119 +126,55 @@
   <section id="projetos" class="projects">
     <h2>Projetos</h2>
     <div class="projects__container">
-      <div class="projects__card">
-        <img class="card__cover" src="assets/images/projects/josisbox.jpg" alt="Capa Josi's Box">
-        <div class="card__body">
-          <h3 class="card__title">Josi’s Box Ecommerce</h3>
-          <p class="card__description">Ecommerce de Livros</p>
-          <ul class="card__list">
-            <li class="card__item">Listagem de favoritos;</li>
-            <li class="card__item">Carrinho de compras;</li>
-            <li class="card__item">Filtragem por preço e categoria.</li>
-          </ul>
-          <ul class="technologies__list">
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
-            </li>
-          </ul>
-          <div class="card__buttons">
-            <button class="btn btn--primary">
-              <span>Prévia</span>
-              <i class="bi bi-arrow-up-right"></i>
-            </button>  
-            <button class="btn">
-              <span>Repositório</span>
-            </button>  
+        <div class="projects__card">
+            <div class="card__container">
+                <div class="card__body">
+                    <h3 class="card__title">Sistema para Estacionamento</h3>
+                    <p class="card__description">Sistema para cadastro de veículos em um estacionamento</p>
+                    <ul class="card__list">
+                        <li class="card__item">Adicionar um veículo;</li>
+                        <li class="card__item">Remover um veículo;</li>
+                        <li class="card__item">Cálculo do valor cobrado durante o período;</li>
+                        <li class="card__item">Listagem de veículos estacionados.</li>
+                    </ul>
+                    <ul class="technologies__list">
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/csharp.png" alt="Logo csharp">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/dotnet.png" alt="Logo dotnet">
+                        </li>
+                    </ul>
+                    <div class="card__buttons">
+                      <button class="btn btn--primary">
+                          <a href="https://github.com/finardib/SISTEMA-ESTACIONAMENTO.git" target="_blank">
+                              <span>Repositório</span>
+                              <i class="bi bi-arrow-up-right"></i>
+                          </a>
+                      </button>
+                  </div>
+                  
+                </div>
+              </div>
+
+                <div class="card__video-container">
+                    <video class="card__video" width="640" height="360" controls>
+                        <source src="assets/videos/ESTACIONAMENTO.mp4" type="video/mp4">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                </div>
+            </div>
+
+            <div class="card__buttons">
+              <a href="https://github.com/finardib" target="_blank" class="btn btn--primary">
+                  <span>Ver Todos os Projetos</span>
+                  <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="projects__card card--reverse">
-        <img class="card__cover" src="assets/images/projects/archstil.jpg" alt="Capa Archstil">
-        <div class="card__body">
-          <h3 class="card__title">Archstil Blog</h3>
-          <p class="card__description">A história por trás dos Estilos Arquitetônicos.</p>
-          <ul class="card__list">
-            <li class="card__item">Postagens relacionadas e em destaque;</li>
-            <li class="card__item">Filtragem por tags e categorias;</li>
-            <li class="card__item">Biografia do autor.</li>
-          </ul>
-          <ul class="technologies__list">
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
-            </li>
-          </ul>
-          <div class="card__buttons">
-            <button class="btn btn--primary">
-              <span>Prévia</span>
-              <i class="bi bi-arrow-up-right"></i>
-            </button>  
-            <button class="btn">
-              <span>Repositório</span>
-            </button>  
-          </div>
-        </div>
-      </div>
-      <div class="projects__card">
-        <img class="card__cover" src="assets/images/projects/games-store.jpg" alt="Capa Games Store">
-        <div class="card__body">
-          <h3 class="card__title">Games Store</h3>
-          <p class="card__description">Loja online de Games.</p>
-          <ul class="card__list">
-            <li class="card__item">Listagem de favoritos;</li>
-            <li class="card__item">Carrinho de compras;</li>
-            <li class="card__item">Filtragem por preço e categoria.</li>
-          </ul>
-          <ul class="technologies__list">
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
-            </li>
-          </ul>
-          <div class="card__buttons">
-            <button class="btn btn--primary">
-              <span>Prévia</span>
-              <i class="bi bi-arrow-up-right"></i>
-            </button>  
-            <button class="btn">
-              <span>Repositório</span>
-            </button>  
-          </div>
-        </div>
-      </div>
-      <a href="https://github.com/finardib">
-        <button class="btn btn--primary">
-          <span>Ver Todos os Projetos</span>
-          <i class="bi bi-arrow-up-right"></i>
-        </button>  
-      </a>
-    </div>
-  </section>
+   </section>
+ 
+
 
   <section id="sobre" class="about">
     <div class="about__content1">
@@ -260,11 +196,10 @@
               <i class="bi bi-arrow-up-right"></i>
             </button> 
           </a>
-          <a href="">
-            <button class="btn">
-              <span>Currículo</span>
-            </button>
-          </a>
+          <a href="assets/curriculum/CV FINARDI..pdf" target="_blank" class="btn">
+            <span>Currículo</span>
+        </a>      
+          
         </div>
       </div>
     </div>
@@ -272,76 +207,105 @@
       <div class="col1">
         <div class="row1">
           <h3>Formação</h3>
-          <h4>Análise e Desenvolvimento de Sistemas</h4>
-          <span>Setembro, 2023 - Atualmente</span>
-          <div class="about__icons">
-            <i class="bi bi-bank"></i>
-            <span>Faculdade das Américas (FAM)</span>
-          </div>
-          <div class="about__icons">
-            <i class="bi bi-mortarboard"></i>
-            <span>Tecnológo</span>
-            
-          <h4>Análises Clínicas e Microbiologia</h4>
-          <span>Abril, 2022 - Novembro, 2023</span>
-          <div class="about__icons">
-            <i class="bi bi-bank"></i>
-            <span>Faculdade Venda Nova do Imigrante (FAVENI)</span>
-          </div>
-          <div class="about__icons">
-            <i class="bi bi-mortarboard"></i>
-            <span>Pós-graduação Lato Sensu - Especialização</span>
-          </div>
-        </div> 
-
-        <h4>Ciências Biológicas</h4>
-          <span>Agosto, 2015 - Dezembro, 2019</span>
-          <div class="about__icons">
-            <i class="bi bi-bank"></i>
-            <span>Universidade Tecnológica Federal do Paraná (UTFPR)</span>
-          </div>
-          <div class="about__icons">
-            <i class="bi bi-mortarboard"></i>
-            <span>Licenciatura</span>
-          </div>
-        </div> 
-
-
-        <div class="row2">
-          <h3>Experiências</h3>
-          <h4>Analista de Controle de Qualidade</h4>
-          <span>Prati-Donaduzzi. Janeiro, 2023 - Abril, 2023</span>
-          <span>Análise de esterilidade em água, matéria prima e produto acabado;
-          </span>
-          <ul class="about__list">
-            <li class="about__item">Pesquisa de patógenos nos medicamentos produzidos;</li>
-            <li class="about__item">Coleta de água em áreas produtivas;</li>
-            <li class="about__item">Registro das análises e utilização dos equipamentos em Logbooks.</li>
-          </ul>
+          <p>
+            <h4>Análise e Desenvolvimento de Sistemas</h4>
+            <span>Setembro, 2023 - Atualmente</span>
+            <div class="about__icons">
+              <i class="bi bi-bank"></i>
+              <span>Faculdade das Américas (FAM)</span>
+            </div>
+            <div class="about__icons">
+              <i class="bi bi-mortarboard"></i>
+              <span>Tecnólogo</span>
+            </div>
+          </p>
+    
+          <p>
+            <h4>Análises Clínicas e Microbiologia</h4>
+            <span>Abril, 2022 - Novembro, 2023</span>
+            <div class="about__icons">
+              <i class="bi bi-bank"></i>
+              <span>Faculdade Venda Nova do Imigrante (FAVENI)</span>
+            </div>
+            <div class="about__icons">
+              <i class="bi bi-mortarboard"></i>
+              <span>Pós-graduação Lato Sensu - Especialização</span>
+            </div>
+          </p>
+    
+          <p>
+            <h4>Ciências Biológicas</h4>
+            <span>Agosto, 2015 - Dezembro, 2019</span>
+            <div class="about__icons">
+              <i class="bi bi-bank"></i>
+              <span>Universidade Tecnológica Federal do Paraná (UTFPR)</span>
+            </div>
+            <div class="about__icons">
+              <i class="bi bi-mortarboard"></i>
+              <span>Licenciatura</span>
+            </div>
+          </p>
         </div>
       </div>
-      <div class="col2">
-        <h3>Cursos</h3>
-        <div id="accordion">
-          <div class="accordion__item active">
-            <button class="accordion__header start">
-              <span>Bootcamp WEX: Dsenvolvimento .NET e QA </span>
-              <i class="bi bi-caret-down-fill"></i>
-            </button>
-            <div class="accordion__body">
-              <p>
-                Digital Innovation One. Nov 2023. 101h.
-              </p>
-              <p>
-                <ul class="about__list">
-                  <li class="about__item">PRINCÍPIOS DE DESENVOLVIMENTO ÁGIL E COLABORATIVO</li>
-                  <li class="about__item">FUNDAMENTOS .NET</li>
-                  <li class="about__item">EXPLORANDO A LINGUAGEM C#</li>
-                  <li class="about__item">PROGRAMAÇÃO ORIENTADA A OBJETOS COM C#</li>
-                  <li class="about__item">MANIPULANDO DADOS SQL SERVER E APIs COM C#</li>
-                  <li class="about__item">TRABALHANDO COM DESENVOLVIMENTO ORIENTADO A TESTES</li>
-                  <li class="about__item">INTRODUÇÃO À QUALIDADE DE SOFTWARE</li>
-                </ul>                
+    </div>
+  
+    
+          
+    
+
+    <div class="row2">
+      <h3>Experiências</h3>
+      <br>
+    
+      <div class="experience">
+        <h4>Analista de Controle de Qualidade</h4>
+        <span>Prati-Donaduzzi. Janeiro, 2023 - Abril, 2023</span>
+        <ul class="about__list">
+          <li class="about__item">Análise de esterilidade em água, matéria prima e produto acabado;</li>
+          <li class="about__item">Pesquisa de patógenos nos medicamentos produzidos;</li>
+          <li class="about__item">Coleta de água em áreas produtivas;</li>
+          <li class="about__item">Registro das análises e utilização dos equipamentos em Logbooks.</li>
+        </ul>
+      </div>
+      <br>
+      <div class="experience">
+        <h4>Técnica de Laboratório</h4>
+        <span>Colégio Bandeirantes. Fevereiro, 2020 - Dezembro, 2022</span>
+        <ul class="about__list">
+          <li class="about__item">Produção e organização dos recursos a serem utilizados nas aulas práticas;</li>
+          <li class="about__item">Cotação e compra de insumos para o laboratório;</li>
+          <li class="about__item">Suporte nas aulas de Ciências;</li>
+          <li class="about__item">Organização e limpeza do espaço, equipamentos e vidrarias após sua utilização.</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+    
+    
+    <div class="col2">
+      <h3>Cursos</h3>
+      <div id="accordion">
+        <div class="accordion__item active">
+          <button class="accordion__header start">
+            <span>Bootcamp WEX: Desenvolvimento .NET e QA </span>
+            <i class="bi bi-caret-down-fill"></i>
+          </button>
+          <div class="accordion__body">
+            <p>Digital Innovation One. Nov 2023. 101h.</p>
+            <ul class="about__list">
+              <li class="about__item">PRINCÍPIOS DE DESENVOLVIMENTO ÁGIL E COLABORATIVO</li>
+              <li class="about__item">FUNDAMENTOS .NET</li>
+              <li class="about__item">EXPLORANDO A LINGUAGEM C#</li>
+              <li class="about__item">PROGRAMAÇÃO ORIENTADA A OBJETOS COM C#</li>
+              <li class="about__item">MANIPULANDO DADOS SQL SERVER E APIs COM C#</li>
+              <li class="about__item">TRABALHANDO COM DESENVOLVIMENTO ORIENTADO A TESTES</li>
+              <li class="about__item">INTRODUÇÃO À QUALIDADE DE SOFTWARE</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+                    
               </p>
             </div>
           </div>
