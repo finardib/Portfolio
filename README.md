@@ -1,6 +1,4 @@
 <h1>
-    <a href="https://www.dio.me/">
-     <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
     <span>Portfólio | Bruna Finardi</span>
 </h1>
 
@@ -14,10 +12,6 @@ Documentação da evolução do meu processo de aprendizagem em programação.
 [![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=30A3DC)]()
 [![Figma](https://img.shields.io/badge/Protótipo%20no%20Figma-000?style=for-the-badge&logo=figma&logoColor=E94D5F)](https://www.figma.com/file/NkndT2SbyHJZWLEsaM8Xn3/DIO-Lab-Portf%C3%B3lio)
 
-## Projetos
-**Portfólio Inicial:** [Link do Projeto](#)
-- **Projeto X:** [Link do Projeto](#)
-- **Projeto Y:** [Link do Projeto](#)
 
 ## Desafios Superados no desenvolvimento deste portfólio:
 - Desenvolvimento de um portfólio autêntico e responsivo.
