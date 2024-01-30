@@ -14,7 +14,7 @@ Documentação da evolução do meu processo de aprendizagem em programação.
 
 
 ## Desafios Superados no desenvolvimento deste portfólio:
-- Desenvolvimento de um portfólio autêntico e responsivo.
+- Desenvolvimento de um portfólio responsivo.
 - Implementação de recursos interativos e visualmente atraentes.
 
 ##
